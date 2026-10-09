@@ -11,3 +11,5 @@ A **real-time** data pipeline for simulated financial transactions, built end to
 Build and document a streaming pipeline that deals with real-world problems: **duplicate, late, out-of-order and invalid events, and schema changes**.
 
 The focus is not just making data flow, but **demonstrating and proving** how the pipeline behaves when something goes wrong: recovery after failure, reprocessing, idempotency and consistency across layers.
+
+> Infra (S3 bucket, IAM user, Budget) was created manually in the AWS console. Terraform codification is planned for a later phase.
