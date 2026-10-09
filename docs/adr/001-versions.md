@@ -16,14 +16,15 @@ NoSuchMethodError when reading or writing to S3.
 | Component | Version |
 |---|---|
 | Java | 17 |
-| Python | <fill in> |
+| Python | 3.11 |
 | Scala | 2.12 |
 | Spark / PySpark | 3.5.1 |
 | Delta Lake | 3.2.0 (io.delta:delta-spark_2.12) |
 | hadoop-aws | 3.3.4 |
 | aws-java-sdk-bundle | 1.12.262 |
 | Kafka connector | org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 |
-| Redpanda | <pin a specific image tag> |
+| Redpanda | v26.2.4 |
+| Redpanda Console | v3.12.0 (redpandadata/console) |
 
 ## Alternatives considered
 
